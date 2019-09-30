@@ -29,13 +29,17 @@ Descompriman el archivo `*.zip` en la caperta de `libraries` de su sketchbook (e
 
 Completar la tabla:
 
-| Integrante | github nick |
-|------------|-------------|
-|            |             |
+| Integrante  | github nick |
+|-------------|-------------|
+|Pedro Higuera|pahigueraf   |
 
 ## Discusión
 
-(describa brevemente las actividades realizadas y los resultados obtenidos)
+Se implementó una interfaz para ilustrar la manera en que va cambiando una imagen de acuerdo a la manipulación de sus pixeles. En primera instancia, la imagen pasó por un filtro de escala de grises. También se tiene la opción de mostrar mediante Luma. Para dicha función, se usó la ecuación establecida en el estándar CCIR_601. Comparando las dos funciones, no resulta una clara diferencia entre ambos. Luma es un poco más brillante.
+
+Para la parte de máscaras de convolución, se tiene la opción d escoger entre 4 funciones: Blur, Sharpen, Detección de límite y Blur Gaussiano de 3 x 3.
+
+Finalmente, se realizó el histograma de la imagen. Allí, se puede segmentar parte del histograma y, en la opción de segmentación, se puede observar el resultado de una segmentación a blanco y negro.
 
 ## Entrega
 
